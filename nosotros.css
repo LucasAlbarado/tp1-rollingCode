@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #160d26;
+    font-family: 'Optima', sans-serif;
+}   
+.row{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.main{
+    width: auto;
+}
+nav, footer{
+    background-color: #160d26;
+}
+
+.col-lg-12{  
+    height: 80vh;
+}
+#nav-bar{
+    margin: 0px;
+    padding: 0px;
+}
+.img_logo{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+}
+
+.btn_suscribirse{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn_menu{
+    outline: 1px solid white;
+}
+.col-lg-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.text-nosotros{
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    background-color: #422673;
+    border-radius: 10px;
+}
+.text-nosotros p{
+    margin: 5px;
+    color: aliceblue ;
+    font-size: 20px;
+    background-color: #422673;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.slider-nosotros{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.carousel-item img{
+    border-radius: 8px;
+
+}
+.carousel-item{
+    height: 480px;
+    width: 650px;
+}   
+.carousel-indicators{
+    background-color: #422673;
+}
+.carousel-indicators button{
+    width: 100%;
+}
+
+.carousel-caption{
+    border-radius: 14px;
+    background-color: #422673;
+}
+.carousel-indicators{
+    border-radius: 14px;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+#informacion-slide h5{
+    color: aliceblue    ;
+    background-color: #422673;
+    font-weight: 700;
+}
+#informacion-slide p{
+    color: aliceblue;
+    background-color: #422673;
+    font-weight: 480;
+}
+#img-nos-carousel{
+    width: 100%;
+}
+footer{
+   height: 20vh;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+}
+#footer-items p a{
+    text-decoration: none;
+    background-color: #160d26;
+}
+.logo_footer{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+    padding-top: 20px;
+}
+@media screen and (min-width:992px) {
+    .btn_suscribirse{
+        margin-top: 4px;
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .carousel-item{
+        height: 400px;
+        width: 650px;
+    }   
+    .text-nosotros p{
+        color: aliceblue ;
+        font-size: 15px;
+        background-color: #422673;
+        border-radius: 10px;
+        width: 100%;
+        margin: 2   px;
+    }
+    .text-nosotros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    #informacion-slide h5{
+        border-radius: 14px ;
+        margin-bottom: 1px;
+    }
+    .carousel-caption{
+        padding-top: 0px;
+        padding-bottom: 1px;
+    }
+    .carousel-item img{
+        height: 466px ;
+    }
+    .carousel-item{
+        width: auto;
+    }
+    .col-lg-12{
+        width: auto;
+    }
+    .carousel #img-nos-carousel{
+        width: 360px;
+    }
+    #footer{
+       margin-top: 20px;
+     }
+    
+}               

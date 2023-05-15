@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #160d26;
+    font-family: 'Optima', sans-serif;
+}   
+nav, footer{
+    background-color: #160d26;
+}
+#footer-items p a{
+    text-decoration: none;
+    list-style: none;
+    background-color: #160d26;
+}
+#nav-bar{
+    margin: 0px;
+    padding: 0px;
+}
+.img_logo{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+}
+
+.btn_suscribirse{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.btn_menu{
+    outline: 1px solid white;
+}
+
+main{
+    height: 80vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+.text-bienvenidos{
+    color: white;
+}
+.form-login{   
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: black;
+    margin: 7px;
+}
+.col-lg-12{
+    background-color: black;
+    
+}
+.mb-3{
+    background-color: black;
+}
+.mb-3 a{
+    text-decoration: none;
+    list-style: none;
+}
+.mb-3 p, a, label{
+    background-color: black;
+}
+#button-form{
+    background-color: #2C1A4C;
+    align-items: center;    
+}
+footer{
+    height: 20vh;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+}
+.logo_footer{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+    padding-top: 20px;
+}
+@media screen and (min-width:992px) {
+    .btn_suscribirse{
+        margin-top: 4px;
+        margin-right: 15px;
+    }
+    
+}

@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #160d26;
+    font-family: 'Optima', sans-serif;
+}   
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+main{
+    height: 80vh;
+}
+nav, footer{
+    background-color: #160d26;
+}
+
+#nav-bar{
+    margin: 0px;
+    padding: 0px;
+}
+.img_logo{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+}
+
+.btn_suscribirse{
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.btn_menu{
+    outline: 1px solid white;
+}
+.col-lg-4{
+    padding: 0px;
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    width: 17rem;
+    display: flex;
+    color: aliceblue;
+   background-color: #2C1A4C;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.card-body{
+    color: aliceblue;
+    background-color: #2C1A4C;
+    border-top: 10px    ;
+}
+#card-title{
+    color: aliceblue;
+   background-color: #2C1A4C;
+}
+#card-text{
+    color: aliceblue;
+    background-color: #2C1A4C;
+}
+footer{
+    width:100% ;
+    height: 20vh;
+}
+
+#footer{
+    margin: 0px;
+    padding: 0px;
+}
+#footer-items p a{
+    text-decoration: none;
+    list-style: none;
+    background-color: #160d26;
+}
+.logo_footer{
+    border-radius: 60%;     
+    overflow: hidden;     
+    width: 50px;
+    padding-top: 20px;
+}
+@media screen and (min-width:992px) {
+    footer{
+        height: 20vh;
+    }
+    .btn_suscribirse{
+        margin-top: 4px;
+        margin-right: 15px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    main{
+        height: 135vh;
+    }
+    #primera-card{
+        margin-top: 57px;
+    }
+    .col-lg-4{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .card{
+        width: 200px;
+    }
+    .card-body{
+        font-size: 10px;
+    }
+    .card img{
+        height: 100px;
+        width: 200px;
+    }
+}   
+@media screen and (max-width:365px){
+}
